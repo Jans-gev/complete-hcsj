@@ -1,0 +1,106 @@
+.Footer {
+    background: rgb(8, 8, 8);
+    padding: 117px 170px 25px;
+  
+    color: white;
+}
+.Footer .footer-top .footer-logo img {
+    cursor: pointer;
+    max-height: 50.584px;
+    max-width: 200.438px;
+}
+.Footer .footer-top .footer-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+.Footer .footer-top h1 {
+    
+    font-family: Koulen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 41px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Footer .footer-top h1 span {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#0072ff,#00c6ff);
+    background-clip: text;
+    
+}
+.Footer .footer-top .address {
+    grid-gap: 30px;
+    align-items: center;
+    display: grid;
+    display: flex;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Footer .footer-top .address .list {
+    align-items: center;
+    background: hsla(0,0%,100%,.3);
+    border: 2.282px solid #fff;
+    border-radius: 10.399px;
+    -webkit-column-gap: 25px;
+    column-gap: 25px;
+    display: flex;
+    padding: 19px 26px;
+}
+.Footer .footer-top .address .list .right {
+    align-items: flex-start;
+    -webkit-column-gap: 3px;
+    column-gap: 3px;
+    display: flex;
+}
+.footer-top .address .list .right img {
+   margin-top: 15px;
+}
+.footer-top .links {
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+.footer-top .links a {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 15.686px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+.footer-top .social-icons {
+    align-items: center;
+    -webkit-column-gap: 26px;
+    column-gap: 26px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 116px;
+}
+.footer-top .social-icons a{
+    width: 20px;
+}
+.Footer .bottom-sec p {
+    font-family: Century Gothic;
+    font-size: 10.584px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.Footer .line {
+    margin-bottom: 60px;
+    width: 100%;       /* Length of the line */
+    height: 2px;       /* Thickness of the line */
+    background-color: rgb(255, 255, 255); /* Color of the line */
+}

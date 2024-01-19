@@ -1,0 +1,574 @@
+
+.banner {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.video-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: 1; 
+}
+#videoElement {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .banner .content {
+    position: relative;
+    z-index: 3; 
+    color: white;
+    
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.banner .content img {
+    width: 50%;
+  
+}
+.primary-btn {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid #00c6ff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-top: 250px;
+    
+}
+
+.primary-btn:hover {
+    background: linear-gradient(90deg,#00c6ff,#0072ff);
+}
+   /* counter*/
+   .counter {
+    align-items: center;
+    background: linear-gradient(90deg,#00c6ff,#0072ff);
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 200px;
+    margin-top: -20px;
+}
+.counter .content {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+.counter .content p {
+    font-size: 30.677px;
+    color: #fff;
+}
+.counter .content .head {
+    font-size: 40.677px;
+    
+}
+.counter .content span {
+    color: white;
+    font-size: 40.677px;
+    font-weight: bold;
+    
+}
+.counter .content div {
+    align-items: center;
+    display: flex;
+}
+/*chooseus*/
+.chooseus{
+    align-items: center;
+    background: black;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    display: flex;
+    padding: 150px 90px 250px 150px;
+    position: relative;
+    color: #fff;
+    height: 1vh;
+      
+    
+}
+ .left h3 {
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.head h1{
+    display: inline-block; 
+    font-size: 50px;
+    
+}
+.head .ist {
+    position: relative; 
+    color: #ffffff; 
+}
+
+.head .ist::after {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 4px; 
+    bottom: 0; 
+    left: 0;
+    background-image: linear-gradient(90deg, #00c6ff, #0072ff); 
+    display: block;
+}
+.chooseus .right {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 70px;
+}
+.chooseus .right video {
+    width: 100%;
+}
+/*sevices css*/
+.services{
+    position: relative;
+    
+    margin-top: -20px;
+}
+.services .video-layer{
+    
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.heading .top,
+.heading .center,
+.heading .bottom {
+    margin-top: -30px;
+    margin-left: 600px;
+    color: #fff;
+}
+.hide {
+    visibility: hidden;
+}
+.main {
+       -webkit-text-fill-color: transparent;
+      background: linear-gradient(180deg,#0072ff 19.79%,#00c6ff);
+      background-clip: text;
+      -webkit-background-clip: text;
+}
+.sCard{
+    background: linear-gradient(180deg,#0072ff,#0057ff);
+    border-radius: 19.857px;
+    overflow: hidden;
+    height: 400px;
+    padding: 5px;
+    width: 70%;
+    color: #fff;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.inner .shead {
+    align-items: center;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    display: flex;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 2;
+}
+.inner .slist {
+   margin-right: 20px;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+    
+}
+.inner .slist img {
+    width: 15px;
+     
+ }
+ .shead img {
+    height: 30.53px;
+    object-fit: contain;
+    width: 30.53px;
+}
+
+.inner {
+    border-radius: 18.535px;
+    padding: 15px 28px;
+    transition: all .4s linear;
+}
+.services .servicecard {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto auto; 
+  
+    row-gap: 20px;
+    margin-right: 50px;
+    
+}
+/*technologies*/
+.Technologies  {
+    position: relative; /* Add this line to establish a positioning context for absolute positioning */
+}
+
+.Technologies .inside .layer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.Technologies .divider {
+   
+   
+    left: 0;
+    object-fit: cover;
+   
+    width: 100%;
+    z-index: 5;
+    margin-top: -5px;
+}
+
+.Technologies .inside .Theading {
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 2;
+    color:rgb(255, 255, 255);
+    
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+}
+.Theading h2 span {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#0072ff,#00c6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.Tcontent .tContent {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: auto auto; 
+    margin-left: 20px;
+    
+    
+    
+}
+
+ .Tcontent .nav .nav-link.active {
+    background: #0072ff;
+    color: rgb(255, 255, 255);
+}
+ .Tcontent .nav .nav-link {
+    background-color: #fff;
+    border: none;
+    border-radius: 6.364px;
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+ }
+ .tabpanel div{
+    width: 100%;
+ }
+ .tabpanel {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: auto auto; 
+    margin-left: 50px;
+    column-gap: 10px;
+    margin-top: 20px;
+    
+    
+}
+/*portfolio*/
+.Portfolio {
+    background: rgb(0, 0, 0);
+    padding: 100px 0;
+}
+.Portfolio .heading h2 span {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#0072ff,#3acff6);
+    background-clip: text;
+    
+}
+.Portfolio .heading h2 {
+    color: white;
+    font-family: Koulen;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+
+    margin-top: 100px;
+}
+
+
+.slide {
+    height: 500px;
+    display: none;
+    background: url(https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/Webp+2+Images/Contact+Back.webp);
+    width: 100%;
+    left: 0;
+    top: 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    color: azure;
+    animation: slideAnimation 1s infinite; /* Animation added */
+    z-index: 2;
+   
+}
+.slide img{
+    height: 500px;
+    width: 100%;
+   
+}
+
+.slide .left img{
+    padding: 0 50px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+.slide .left{
+    margin-left: 200px;
+}
+.slide .right{
+    margin-left: 100px;
+}
+.slide .right img{
+    padding: 0 50px;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.slide .right h5{
+   font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: azure;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.dots-container {
+   margin-left: 500px;
+    margin-top: -50px;
+   
+    position: absolute;
+
+    
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 5;
+    
+}
+
+.dot.active {
+    background-color: #000000;
+}
+@keyframes slideAnimation {
+   
+   0%{
+    transform: translateX(-0.5%);
+   }
+ 
+}
+/*testimonial*/
+.Testimonial{
+    background: black;
+    background-image: url(https://www.octaloop.io/static/media/Testimonialsback.4c44bcd8d04a27e4c042.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+   
+}
+.Testimonial .head {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.Testimonial .head span {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#0072ff,#00c6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
+/*founder*/
+.Founder {
+    background: url(https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/Team+Background+copy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 181px 150px;
+    color: #fff;
+}
+.Founder .head {
+    font-family: Koulen;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+.Founder .head span {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#0072ff,#00c6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+   
+}
+.Founder .details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.Founder .Top img {
+    height: auto;
+    width: 200px!important;
+}
+.Founder .Top .middle {
+    align-items: center;
+    margin-left: 80px;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+    display: flex;
+    width: 80%;
+}
+ .Founder .Top .middle .content h1 span {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg,#0072ff,#487cfa);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.Founder .Top .middle .content  h5 {
+    font-size: 20px;
+    line-height: 88.844%;
+}
+/*Intouch*/
+.In-Touch {
+    align-items: center;
+    background: url(https://www.octaloop.io/static/media/intouch.f13cb3f2f77c2e6e1256.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-column-gap: 180px;
+    column-gap: 180px;
+    display: flex;
+    padding: 51px 225px;
+}
+.In-Touch .left h4 {
+    color: black;
+    font-family: Koulen;
+    font-size: 30.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+    margin: 0;
+}
+.In-Touch .left h4 span, .In-Touch .left p {
+    color: white;
+}
+.In-Touch .right {
+    background: hsla(0,0%,100%,.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 29px 71px;
+    row-gap: 32px;
+    width: 55%;
+}
+.In-Touch .right .list {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    -webkit-column-gap: 60px;
+    column-gap: 60px;
+    display: flex;
+}
+.In-Touch .right input, .In-Touch .right textarea {
+    background: white;
+    border: none;
+    border-radius: 6.754px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    outline: none;
+    padding: 14px 9px;
+    width: 100%;
+}
+.In-Touch .right button {
+    background: white;
+    border-radius: 3.65px;
+    color: black;
+    font-family: Montserrat Alternates;
+    font-size: 16.531px;
+    font-weight: 600;
+    padding: 9px 29px;
+    border: none;
+   margin-right: 200px;
+}

@@ -1,0 +1,38 @@
+
+
+.navbar {
+    
+    
+  overflow: hidden;
+   background-color: black;
+  
+}
+.navbar .button  {
+   
+    background: linear-gradient(90deg,#00c6ff,#0072ff);
+    border: none;
+    border-radius: 2.416px;
+   
+    color: #fff;
+    font-weight: 500;
+    float: right;
+    height: 40px;
+    width: 120px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 20px;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+

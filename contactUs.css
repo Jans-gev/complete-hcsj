@@ -1,0 +1,170 @@
+.contactUs {
+    -webkit-padding-before: 230px;
+    background-color: rgb(46, 44, 44);
+    padding-block-start: 230px;
+}
+.contactHead {
+    color: #e6e6e6;
+    font-family: Century Gothic;
+    font-size: clamp(1.2rem,3vw,2.8rem);
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 2;
+}
+.centered {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contactHead p:first-of-type {
+    
+    color: hsla(0,0%,100%,.05);
+    font-size: clamp(1rem,10vw,75px);
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    z-index: -1;
+}
+.gridhead {
+    color: #e6e6e6;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 19.6124px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: Montserrat Alternates;
+}
+.offering {
+    color: #e6e6e6;
+    
+    justify-content: center;
+    display: flex;
+    
+    gap: 25px;
+    
+}
+.contact-us-map {
+    background-image: url(https://www.octaloop.io/static/media/map.08e289e300ba227d82de.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 70px;
+    
+}
+.addressSection {
+    
+    color: blanchedalmond;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    
+    min-height: 100px;
+    width: 100%;
+}
+.AddressBox {
+    
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 450px;
+    min-height: 380px;
+    padding: 40px 25px;
+    
+    width: 400px;
+    align-items: start;
+    display: flex;
+    justify-content: center;
+}
+.AddressLine {
+    background: #e6e6e6;
+    border-radius: 10px;
+    height: 3px;
+    margin-bottom: 20px;
+    min-width: 80px;
+}
+.AddressBox h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.AddressBox p {
+    text-shadow: 1px 1px 1px #000;
+}
+.AddressBox>div {
+    display: flex;
+}
+.AddressBox img {
+    -webkit-margin-end: 10px;
+    height: fit-content;
+    
+    width: 20px;
+    margin-top: 15px;
+}
+.AddressBox strong{
+    font-size: 15px;
+    font-weight: 600;
+}
+.contactForm {
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 6.26204px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    max-height: 680px;
+    max-width: 1000px;
+    padding: 40px;
+    width: 100%;
+    margin-top: 50px;
+}
+.contactForm p {
+    color: #2d2d2d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.FormControl {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-overflow: ellipsis;
+    transform-origin: left top;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+input {
+    padding: 4px 0px 5px;
+    box-sizing: content-box;
+    height: 1.4375em;
+    display: block;
+    width: 100%;
+    
+}
+.contactForm #textarea {
+    background-color: #d9d9d9;
+    padding-block: 5px; 
+
+    padding-inline: 8px;
+    width: 100%;
+}
+.contactForm button  {
+   
+    background: #298bdf;
+    border: none;
+    border-radius: 2.416px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: auto;
+    height: 40px;
+}
+  

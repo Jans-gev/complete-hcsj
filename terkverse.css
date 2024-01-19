@@ -1,0 +1,16 @@
+.home-bg {
+    align-items: center;
+    background-color: #0f0f0f!important;
+    display: flex;
+    height: 200vh;
+    justify-content: center;
+}
+h6 {
+    color: #03f0ff;
+    font-family: Century Gothic;
+    font-size: 10vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -25px;
+}
+
