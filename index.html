@@ -3,7 +3,8 @@
 <head>
     <title>Octaloop Technologies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="temp.css">
     <link rel="stylesheet" href="style.css">
@@ -11,22 +12,41 @@
     
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <div class="image">
+                <img src="https://www.octaloop.io/assets/images/Octaloop%20Logo.svg" alt="..." class="img-fluid">
+            </div>
+            <ul class="links">
+                
+                <li><a href="C:\Users\Dell\Desktop\task html,css javascript\index.html" >Home</a></li>
+                
+                <li><a href="C:\Users\Dell\Desktop\task html,css javascript\about.html" >About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="C:\Users\Dell\Desktop\task html,css javascript\terkverse.html">Trekverse</a></li>
+                <li><a href="C:\Users\Dell\Desktop\task html,css javascript\carrer.html">Career</a></li>
+                <li><a href="C:\Users\Dell\Desktop\task html,css javascript\privacy.html">Privacy Policy</a></li>
+                 <li><a href="C:\Users\Dell\Desktop\task html,css javascript\contactUs.html"><p class="button">Contact Us</p></a></li>
+                 
+                
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
     
-    <div class="navbar">
-        <ul class="navbar">
-            <li><img src="https://www.octaloop.io/assets/images/Octaloop%20Logo.svg" alt="..." class="img-fluid"></li>
+            </div>
+          </div>
+          <div class="dropdown_menu ">
             <li><a href="C:\Users\Dell\Desktop\task html,css javascript\index.html" >Home</a></li>
-            
             <li><a href="C:\Users\Dell\Desktop\task html,css javascript\about.html" >About Us</a></li>
             <li><a href="">Services</a></li>
             <li><a href="C:\Users\Dell\Desktop\task html,css javascript\terkverse.html">Trekverse</a></li>
             <li><a href="C:\Users\Dell\Desktop\task html,css javascript\carrer.html">Career</a></li>
             <li><a href="C:\Users\Dell\Desktop\task html,css javascript\privacy.html">Privacy Policy</a></li>
              <li><a href="C:\Users\Dell\Desktop\task html,css javascript\contactUs.html"><p class="button">Contact Us</p></a></li>
-            
-            
-        </ul>
-      </div>
+             
+          </div>
+    </header>
+  
     <div class="banner">
         <div class="content">
             <h1>HERE AND NOW</h1>
@@ -41,12 +61,16 @@
             <a href="C:\Users\Dell\Desktop\task html,css javascript\about.html" ><button class="primary-btn">Explore</button></a>
            
         </div>
-     
-    <div class="video-layer">
-        <video autoplay="" loop="" playsinline="" muted="" poster="" id="videoElement">
-            <source src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/Hero.mp4" type="video/mp4">
-        </video>
-    </div>
+        <div class="video-layer">
+            <video autoplay="" loop="" playsinline="" muted="" poster="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/posters/Hero-min.png" id="videoElement">
+                <source src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/Hero.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="mvideo-layermob">
+            <video autoplay="" loop="" playsinline="" muted="" poster="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/posters/mobposter.png" id="videoElementMobile">
+                <source src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/Comp+1_4.mp4" type="video/mp4">
+            </video>
+        </div>
 </div>
         
     <div class="counter">
@@ -87,14 +111,15 @@
         </div>
     </div>
     <div class="services">
-        <div class="video-layer">
-            <video autoplay="" loop="" playsinline="" muted="" poster="">
-                <source src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/octaloop-website-compressed/Services+(1).mp4" type="video/mp4">
-            </video>
-        </div>
         <div class="divider">
             <img src="https://www.octaloop.io/assets/images/divider.png" alt="...">
         </div>
+        <div class="svideo-layer">
+            <video autoplay="" loop="" playsinline="" muted="" poster="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/octaloop-website-compressed/Sbackground-min+(1)+(1).png">
+                <source src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/octaloop-website-compressed/Services+(1).mp4" type="video/mp4">
+            </video>
+        </div>
+        
         <div class="heading">
             <div class="top">
                 <h1 class="sm">
@@ -285,9 +310,10 @@
         </div>
         <div class="inside">
             <div class="Theading">
-                <h2>BLOCKCHAIN <span>TECHNOLOGIES</span></h2>
+                <h2 class="first">BLOCKCHAIN <span>TECHNOLOGIES</span></h2>
                 <h2 class="small">Decentralize Your Business</h2>
             </div>
+            
             <div class="Tcontent">
                 <div class=" tContent nav nav-tabs" role="tablist">
                     <div class="nav-item" role="presentation">
@@ -309,7 +335,7 @@
                         <button type="button" id="uncontrolled-tab-example-tab-AI Tools" role="tab" data-rr-ui-event-key="AI Tools" aria-controls="uncontrolled-tab-example-tabpane-AI Tools" aria-selected="true" class="nav-link ">AI Tools</button>
                     </div>
                 </div>
-            </div>
+            
                 <div class="tab-content">
                     <div class="tabpanel tab-pane" role="tabpanel" id="uncontrolled-tab-example-tabpane-Blockchain Tech" aria-labelledby="uncontrolled-tab-example-tab-Blockchain Tech" >
                             <div><img src="https://www.octaloop.io//assets/images/Binancetab.png" width="100%" height="100%" alt="..."></div>
@@ -317,12 +343,48 @@
                             <div><img src="https://www.octaloop.io//assets/images/polygontab.png" width="100%" height="100%" alt="..."></div>
                             <div><img src="https://www.octaloop.io//assets/images/solanatab.png" width="100%" height="100%" alt="..."></div>
                             <div><img src="https://www.octaloop.io//assets/images/cardanatab.png" width="100%" height="100%" alt="..."></div>
-                    </div>
                 </div>
-                <div class="layer">
-                    <img src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/octaloop-website-compressed/Binary%2BBack+(1).webp" alt="..." width="100%" height="100%">
-                </div>
+            </div>
+              
+                
+         
+                
         </div>
+        <div class="mob-content">
+            <div class="Tslideshow-container">
+                <div class="eslider">
+                   <div class="eslide">
+                      <button class="tab-head">DevOPs</button>
+                      <div class="slide-imgs">
+                          <div><img src="https://www.octaloop.io//assets/images/gittab.png" width="100%" height="100%" alt="..."> </div>
+                          <div><img src="https://www.octaloop.io//assets/images/maventab.png" width="100%" height="100%" alt="..."></div>
+                          <div><img src="https://www.octaloop.io//assets/images/jenkinstab.png" width="100%" height="100%" alt="..."></div>
+                          <div><img src="https://www.octaloop.io//assets/images/dockertab.png" width="100%" height="100%" alt="..."></div>
+                          <div><img src="https://www.octaloop.io//assets/images/kubernatestab.png" width="100%" height="100%" alt="..."></div>
+                      </div>
+      
+                   </div>
+                      
+                              
+                </div>
+                <div class="dots-container">
+                  <span class="edot" onclick="currentSlide(1)"></span>
+                  <span class="edot" onclick="currentSlide(2)"></span>
+                  <span class="edot" onclick="currentSlide(3)"></span>
+                  <span class="edot" onclick="currentSlide(4)"></span>
+                  <span class="edot" onclick="currentSlide(5)"></span>
+                  <span class="edot" onclick="currentSlide(6)"></span>
+                 
+              
+                </div>
+            </div>
+        </div>
+        <div class="layer">
+            <img src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/octaloop-website-compressed/Binary%2BBack+(1).webp" alt="..." width="100%" height="100%">
+        </div>
+      
+        </div>
+   
     </div>
     <div class="Portfolio">
         <div class="heading">
@@ -425,7 +487,6 @@
             
             </div>
         </div>
-    </div>
     </div>
     <div class="Testimonial">
         <h1 class="head">Here’s what our <span>customer says</span></h1>
@@ -616,7 +677,8 @@
                     <img src="https://qazibucket-dest.s3.us-east-2.amazonaws.com/octaloop-new/images/octaTeam/BOD's/Aamir+Ahmed.png" alt="..." width="100%" height="100%">
                     <div class="content">
                         <h1><span>AAMIR </span>AHMED</h1>
-                        <h5>CEO / Founder</h5><p>A visionary leader with a solid strategic focus, deeply committed to driving technological innovation by shaping the company's growth and pioneering tech solutions.</p>
+                        <h5>CEO / Founder</h5>
+                        <p>A visionary leader with a solid strategic focus, deeply committed to driving technological innovation by shaping the company's growth and pioneering tech solutions.</p>
                     </div>
                 </div>
                 <div class="middle">
@@ -641,7 +703,7 @@
     <div class="In-Touch">
         <div class="left">
             <h4><span>Step</span> into the<span> Future</span>?</h4>
-            <h4> Let’s Get in touch!</h4>
+            <h3> Let’s Get in touch!</h3>
             <p class="small">Let’s discuss your Future and find what we can do to add value.</p>
         </div>
         <div class="right">
@@ -650,8 +712,9 @@
                 <input type="number" placeholder="Phone" variant="standard"  value="">
                 <input type="email" placeholder="Email" variant="standard" value="">
                 <textarea name="" placeholder="Message" id="textarea" variant="standard"></textarea>
-                <button class="sub-btn">Submit</button></div>
+                
             </div>
+        </div>
            
     </div>
     <div class="Footer">
@@ -702,6 +765,6 @@
         <div class="bottom-sec"><p>Copyright 2023 © by Octaloop. All Right Reserved.</p></div>
     </div>
     <script src="slider.js"></script>
-    <script src="slidernd.js"></script>
+    
     </body>
 </html>
