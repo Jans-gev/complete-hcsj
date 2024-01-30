@@ -41,12 +41,23 @@
 }
 .offering {
     color: #e6e6e6;
+   
+   
     
-    justify-content: center;
     display: flex;
-    
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 200px;
     gap: 25px;
     
+    
+}
+
+
+.Checkbox {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
 }
 .contact-us-map {
     background-image: url(https://www.octaloop.io/static/media/map.08e289e300ba227d82de.png);
@@ -62,7 +73,8 @@
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 30px;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
     min-height: 100px;
     width: 100%;
 }
@@ -166,5 +178,48 @@ input {
     font-weight: 500;
     margin-left: auto;
     height: 40px;
+}
+
+@media (max-width: 768px) {
+    .offering {
+        color: #e6e6e6;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+         margin-left: -30px;
+         gap: 5px;
+        
+        
+    }
+    .addressSection {
+    
+        color: blanchedalmond;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        min-height: 100px;
+        width: 100%;
+        margin-left: -50px;
+    }
+    .AddressBox {
+    
+        border: 2px solid #e6e6e6;
+        border-radius: 4px;
+        flex-direction: column;
+        flex-grow: 1;
+        max-width: 450px;
+        min-height: 380px;
+        padding: 40px 25px;
+        
+        width: 250px;
+        align-items: start;
+        display: flex;
+        justify-content: center;
+    }
+    .contactForm {
+     margin-left: -60px;
+    }
 }
   
