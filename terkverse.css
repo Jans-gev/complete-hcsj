@@ -13,4 +13,28 @@ h6 {
     text-align: center;
     margin-top: -25px;
 }
-
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .home-bg {
+       
+            align-items: center;
+            background-color: #0f0f0f!important;
+            display: flex;
+            height: 60vh;
+            justify-content: center;
+        
+    }
+    .octa-trek img{
+        width:340px;
+    }
+    h6 {
+        color: #03f0ff;
+        font-family: Century Gothic;
+        font-size: 9vw;
+        font-weight: 700;
+        text-align: center;
+        margin-top: -15px;
+    }
+}
