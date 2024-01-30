@@ -15,7 +15,7 @@
     color: white;
 }
 .AboutHeader {
-    -webkit-text-stroke: 4px var(--baselight);
+   
     color: var(--baselight);
     display: flex;
     font-family: Century Gothic;
@@ -138,3 +138,40 @@
     margin-bottom: 80px;
     max-width: 900px;
 }
+@media (max-width: 768px) {
+
+    .AboutHeader {
+   
+        
+        display: flex;
+        font-family: Century Gothic;
+        font-size: 2rem;
+        font-weight: 800;
+        gap: 10px;
+        text-transform: uppercase;
+    }
+    .headertxt {
+      
+        font-family: Century Gothic;
+        font-size: clamp(.8rem,3vh,1rem);
+        margin-top: 80px!important;
+        
+        text-align: center;
+    }
+    .CEO {
+        flex-direction: column-reverse;
+    }
+    .ceoHeader {
+        margin-top: -100px;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 172.25%;
+        text-transform: uppercase;
+    }
+    .ceoMessage {
+        color: #000;
+       text-align: center;
+    }
+      
+  }
