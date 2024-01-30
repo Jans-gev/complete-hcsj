@@ -1,11 +1,11 @@
 .privacy {
-    padding: 150px;
-    background: #000;
-    color: #fff;
-    display: block;
-    width: 80%;
+   margin-left: 20px;
     
   
+}
+body{
+    background-color: black;
+    color: #fff;
 }
 .privacy .heading span {
     -webkit-text-fill-color: transparent;
@@ -55,4 +55,30 @@ ul {
 li span {
     font-weight: 600;
     text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .privacy .heading {
+        
+      text-align: center;
+      font-size: 25px;
+    }
+    .privacy h2 {
+        color: #fff;
+        font-family: Montserrat Alternates;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+        text-shadow: -5px 2px 2px #0072ff;
+    }
+    .privacy p {
+  
+    margin-bottom: 5px;
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
 }
